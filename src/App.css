@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #222222;
 }
 
 .App-logo {
@@ -35,4 +36,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.test-wrap{
+	padding:4rem;
+	max-width:740px;
+	margin:auto;
+}
+
+.wave-text .letter-wrap{
+  position:relative;
+  top:0;
+  left:0;
+  font-size:1.25rem;
+  color:#326760;
+  line-height:1.8rem;
 }
